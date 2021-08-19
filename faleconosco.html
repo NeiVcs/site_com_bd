@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>Mestre Zé</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<script>
+	function animar (img)
+	{
+		document.getElementById("animacao").src = img;
+	}
+</script>
+<body>
+<div id="interface">
+<header id="cabecalho">
+<hgroup>
+<h1 id="titulo">Mestre Zé</h1>
+</hgroup>
+	
+	<img id="logo" src="imagens/logo.png">
+	<img id="animacao" src="imagens/telefone.png">		
+<nav>
+	<ul>
+	<li onmouseover="animar('imagens/home.png')" onmouseout="animar('imagens/telefone.png')"><a href="index.html">Ínicio</a></li>
+	<li onmouseover="animar('imagens/camera.png')" onmouseout="animar('imagens/telefone.png')"><a href="fotos.html">Fotos</a></li>
+	<li onmouseover="animar('imagens/ferramenta.png')"><a href="orcamentos.html" onmouseout="animar('imagens/telefone.png')">Orçamentos</a></li>
+	<li onmouseover="animar('imagens/telefone.png')">Fale Conosco</li>
+	</ul>
+</nav>
+
+
+</header>
+<section>
+	<p1>aqui vai os telefones...</p1>
+</section>
+<aside>
+	<h3>Aqui entra aquele monte de propaganda que você já conhece...</h3>
+	<h3>É oque nos dá renda né...</h3>
+</aside>
+<footer>
+	<h3>2021 Nei Vcs - <a href="#">clique aqui e conheça nossos serviços</a></h3>
+</footer>	
+
+</div>
+</body>
+</html>
+
+
